@@ -195,3 +195,39 @@ main i {
     color: #222;
     line-height: 1.6;
 }
+@media (max-width: 768px) {
+nav {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;    }
+nav ul {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+ nav ul li a {
+        width: 90%;
+        text-align: center;
+    }
+ h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+ main h2 {
+        font-size: 24px;
+    }
+ main i, main p {
+        font-size: 16px;
+        padding: 0 10px;
+    }
+.cform {
+        width: 90%;
+    }
+ .ctable {
+        display: block;
+        overflow-x: auto;
+        width: 100%;
+    }
+ section h2 {
+        font-size: 24px;
+    }
